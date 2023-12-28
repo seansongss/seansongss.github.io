@@ -13,7 +13,7 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            SeanSong
           </Typography>
           <Button color="inherit" href='/'>Home</Button>
           <Button color="inherit" href='/aboutme'>About Me</Button>

@@ -8,7 +8,7 @@ import AnimatedRoutes from './components/AnimatedRoutes';
 const App = () => {
   return (
     <BrowserRouter>
-      <ButtonAppBar />
+      <Navbar />
       <AnimatedRoutes />
     </BrowserRouter>
   );
