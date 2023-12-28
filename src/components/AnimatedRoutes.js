@@ -6,6 +6,8 @@ import Home from '../pages/Home';
 import AboutMe from '../pages/AboutMe';
 import Hobbies from '../pages/Hobbies';
 
+import './AnimatedRoutes.css'
+
 function AnimatedRoutes() {
     const location = useLocation();
 

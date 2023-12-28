@@ -1,5 +1,6 @@
 .navbar {
     padding: 10px;
+    background-color: aqua;
 }
 
 .navbar-logo {
@@ -13,7 +14,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
 }
 
 li {
