@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
 
-const AboutMe = () => {
+const About = () => {
   return (
     <motion.div
       initial={{ scaleY: 0 }}
@@ -15,4 +15,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;

@@ -8,18 +8,16 @@ export default function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <ul className='navbar-list'>
-            <Link to='/' className='navbar-logo'>seansongss</Link>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/aboutme'>About Me</Link>
-            </li>
-            <li>
-              <Link to='/hobbies'>Hobbies</Link>
-            </li>
-          </ul>
+          <Link to='/' className='navbar-logo'>seansongss</Link>
+          <div className='navbar-links-container'>
+            <ul className='navbar-list'>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/about'>About</Link></li>
+              <li><Link to='/projects'>Projects</Link></li>
+              <li><Link to='/experience'>Experience</Link></li>
+              <li><Link to='/hobbies'>Hobbies</Link></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>

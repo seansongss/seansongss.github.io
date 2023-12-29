@@ -3,8 +3,10 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion/dist/framer-motion';
 
 import Home from '../pages/Home';
-import AboutMe from '../pages/AboutMe';
+import About from '../pages/About';
 import Hobbies from '../pages/Hobbies';
+import Projects from '../pages/Projects';
+import Experience from '../pages/Experience';
 
 import './AnimatedRoutes.css'
 
@@ -16,7 +18,9 @@ function AnimatedRoutes() {
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home />} />
                 <Route path="/hobbies" element={<Hobbies />} />
-                <Route path="/aboutme" element={<AboutMe />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/projects" element={<Projects />} />
             </Routes>
         </AnimatePresence>
     )

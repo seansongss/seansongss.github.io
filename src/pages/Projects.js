@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
 
-const Hobbies = () => {
+
+function Projects() {
   return (
     <motion.div
       initial={{ scaleY: 0 }}
@@ -9,10 +10,10 @@ const Hobbies = () => {
       exit={{ scaleY: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <h1>Hobbies</h1>
-      <p>Here's a list of my hobbies.</p>
+      <h1>Projects</h1>
+      <p>This is a page Projects</p>
     </motion.div>
-  );
-};
+  )
+}
 
-export default Hobbies;
+export default Projects
