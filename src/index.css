@@ -7,13 +7,13 @@ body {
   font-family: 'Alegreya', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fffdfb;
-  color: #162f48;
+  background-color: #fffdfb; /* background color */
+  color: #162f48; /*main text color */
   text-align: center;
 }
 
 h1 {
-  color: #384755;
+  color: #384755; /*title text color */
 }
 
 code {
