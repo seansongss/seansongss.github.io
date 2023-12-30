@@ -1,6 +1,10 @@
 .navbar {
-    padding: 20px;
-    color: inherit;
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
 
 .navbar-container {
@@ -10,10 +14,10 @@
 }
 
 .navbar-logo {
-    margin-left: 10px;
+    margin-left: 20px;
     text-align: center;
     font-weight: 800;
-    font-size:35px;
+    font-size: 40px;
     color: #384755;
 }
 
@@ -25,21 +29,17 @@
 .navbar-list {
     list-style-type: none;
     display: flex;
-    margin: 0;
+    margin-right: 10px;
     padding: 0;
 }
 
 .navbar-list li {
     font-size: 20px;
     text-align: center;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 a {
     text-decoration: none;
     color: #162f48;
-}
-
-.list-end {
-    padding-right: 20px;
 }

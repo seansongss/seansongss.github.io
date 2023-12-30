@@ -1,17 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
 
 const Home = () => {
   return (
-    <motion.div
-      initial={{ scaleY: 0 }}
-      animate={{ scaleY: 1 }}
-      exit={{ scaleY: 0 }}
-      transition={{ duration: 0.5 }}
-    >
+    <div style={{ height: 1000 }} id='home' className='page'>
       <h1>Home Page</h1>
       <p>Welcome to my website!</p>
-    </motion.div>
+    </div>
   );
 };
 
