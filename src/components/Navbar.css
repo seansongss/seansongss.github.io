@@ -1,6 +1,6 @@
 .navbar {
-    padding: 10px;
-    background-color: black;
+    padding: 20px;
+    color: inherit;
 }
 
 .navbar-container {
@@ -10,10 +10,11 @@
 }
 
 .navbar-logo {
-    margin-left: 15px;
+    margin-left: 10px;
     text-align: center;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 800;
+    font-size:35px;
+    color: #384755;
 }
 
 .navbar-links-container {
@@ -31,10 +32,14 @@
 .navbar-list li {
     font-size: 20px;
     text-align: center;
-    padding: 14px 16px;
+    padding-right: 20px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #162f48;
+}
+
+.list-end {
+    padding-right: 20px;
 }

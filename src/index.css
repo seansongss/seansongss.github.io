@@ -3,6 +3,13 @@ body {
   font-family: 'Alegreya', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fffdfb;
+  color: #162f48;
+  text-align: center;
+}
+
+h1 {
+  color: #384755;
 }
 
 code {

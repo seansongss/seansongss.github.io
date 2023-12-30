@@ -15,7 +15,7 @@ export default function Navbar() {
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/projects'>Projects</Link></li>
               <li><Link to='/experience'>Experience</Link></li>
-              <li><Link to='/hobbies'>Hobbies</Link></li>
+              <li className='list-end'><Link to='/hobbies'>Hobbies</Link></li>
             </ul>
           </div>
         </div>
