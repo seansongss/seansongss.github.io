@@ -1,3 +1,7 @@
+html {
+
+}
+
 body {
   margin: 0;
   font-family: 'Alegreya', serif;
@@ -19,4 +23,5 @@ code {
 
 .page {
   margin-top: 80px;
+  height: calc(100vh - 100px);
 }
