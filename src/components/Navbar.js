@@ -28,6 +28,7 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
+      <div className='navbar-bg' />
     </nav>
   )
 }

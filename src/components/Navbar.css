@@ -4,7 +4,8 @@
     width: 100%;
     top: 0;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #fffdfb;
+    box-shadow: 0px 0px 10px #fffdfb;
 }
 
 .navbar-container {
