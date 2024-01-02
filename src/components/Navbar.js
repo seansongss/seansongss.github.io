@@ -11,19 +11,19 @@ export default function Navbar() {
         <div className='navbar-links-container'>
           <ul className='navbar-list'>
             <li>
-              <Link to="home" spy={true} smooth={true} offset={-80} duration={800}>Home</Link>
+              <Link className='navbar-component' to="home" spy={true} smooth={true} offset={-80} duration={800}>Home</Link>
             </li>
             <li>
-              <Link to="about" spy={true} smooth={true} offset={-80} duration={800}>About</Link>
+              <Link className='navbar-component' to="about" spy={true} smooth={true} offset={-80} duration={800}>About</Link>
             </li>
             <li>
-              <Link to="projects" spy={true} smooth={true} offset={-80} duration={800}>Projects</Link>
+              <Link className='navbar-component' to="projects" spy={true} smooth={true} offset={-80} duration={800}>Projects</Link>
             </li>
             <li>
-              <Link to="experience" spy={true} smooth={true} offset={-80} duration={800}>Experience</Link>
+              <Link className='navbar-component' to="experience" spy={true} smooth={true} offset={-80} duration={800}>Experience</Link>
             </li>
             <li>
-              <Link to="contact" spy={true} smooth={true} offset={-80} duration={800}>Contact</Link>
+              <Link className='navbar-component' to="contact" spy={true} smooth={true} offset={-80} duration={800}>Contact</Link>
             </li>
           </ul>
         </div>

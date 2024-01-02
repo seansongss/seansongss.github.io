@@ -39,7 +39,8 @@
 .navbar-list li {
     font-size: 20px;
     text-align: center;
-    padding-right: 30px;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 a {
