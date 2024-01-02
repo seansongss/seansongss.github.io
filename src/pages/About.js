@@ -1,17 +1,18 @@
 import React from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
+
+import './About.css';
 
 const About = () => {
   return (
-    <motion.div
-      initial={{ scaleY: 0 }}
-      animate={{ scaleY: 1 }}
-      exit={{ scaleY: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <h1>About Me</h1>
-      <p>This is a page about me!</p>
-    </motion.div>
+    <div id='about' className='page'>
+      <div className='text-container'>
+        <h1>About Me</h1>
+        <p>This is a page about me!</p>
+      </div>
+      <div className='profile-image'>
+        <img src='/profile_image.jpg' alt='' />
+      </div>
+    </div>
   );
 };
 
