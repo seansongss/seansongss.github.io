@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/fontawesome-svg-core';
+
 import './About.css';
 
 const About = () => {
@@ -13,6 +15,7 @@ const About = () => {
         <h2>Programming Languages</h2>
         <p>Java, JavaScript, Python, </p>
         <h2>Data Tools/Libraries</h2>
+        <FontAwesomeIcon icon="fa-brands fa-instagram" />
       </div>
       <div className='profile-image'>
         <img src='/profile_image.jpg' alt='' />
