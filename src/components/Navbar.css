@@ -9,11 +9,9 @@
 }
 
 .navbar-container {
-    max-width: 1366px;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    align-items: center;
 }
 
 .navbar-logo {
@@ -25,16 +23,9 @@
     cursor: pointer;
 }
 
-.navbar-links-container {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .navbar-list {
     list-style-type: none;
     display: flex;
-    margin-right: -50px;
-    padding: 0;
 }
 
 .navbar-list li {
@@ -42,9 +33,9 @@
     text-align: center;
     margin-right: 30px;
     cursor: pointer;
-}
 
-a {
-    text-decoration: none;
-    color: #162f48;
+    a {
+        text-decoration: none;
+        color: #162f48;
+    }
 }
