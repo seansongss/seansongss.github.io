@@ -3,12 +3,51 @@ html,body {
     overflow-x: hidden;
 }
 
+.page {
+    position: relative;
+}
+
+.text-wrapper {
+    max-width: 1366px;
+    height: 100%;
+}
+
+.text-container {
+    height: 100%;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+    h1 {
+        letter-spacing: 10px;
+        font-size: 50px;
+        margin-bottom: -5%;
+    }
+
+    h2 {
+        font-size: 80px;
+    }
+
+    .scrollButton {
+        cursor: pointer;
+    }
+}
+
+.image-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    z-index: 1;
+}
+
 .slider-text-container {
     position: absolute;
     width: 100%;
     font-size: 40vh;
     white-space: nowrap;
     bottom: -30px;
-    opacity: 0.4;
+    opacity: 0.2;
     color: antiquewhite;
 }

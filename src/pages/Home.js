@@ -45,13 +45,18 @@ const sliderVariants = {
 const Home = () => {
   return (
     <div id='home' className='page'>
-      <motion.div className='text-container' variants={textVariants} initial='initial' animate='animate'>
-        <motion.h1 variants={textVariants}>SEAN SONG</motion.h1>
-        <motion.h2 variants={textVariants}>An enthusiatic university student</motion.h2>
-        <motion.div variants={textVariants} animate='scrollButton' style={{ cursor: 'pointer' }}><FontAwesomeIcon icon={faAnglesDown} size='2x' /></motion.div>
+      <motion.div className='text-wrapper' variants={textVariants} initial='initial' animate='animate'>
+        <motion.div className='text-container' variants={textVariants}>
+          <motion.h1 variants={textVariants}>SEAN SONG</motion.h1>
+          <motion.h2 variants={textVariants}>An enthusiatic university student</motion.h2>
+          <motion.div className='scrollButton' variants={textVariants} animate='scrollButton'><FontAwesomeIcon icon={faAnglesDown} size='2x' /></motion.div>
+        </motion.div>
+      </motion.div>
+      <motion.div className='image-container' variants={textVariants} initial='initial' animate='animate'>
+        <motion.img variants={textVariants} src='/profile_image.jpg' alt='' />
       </motion.div>
       <div className='slider-wrapper'>
-        <motion.div className='slider-text-container' variants={sliderVariants} initial='initial' animate='animate' style={{ cursor: 'default'}}>Engineer Developer Reader Skier</motion.div>
+        <motion.div className='slider-text-container' variants={sliderVariants} initial='initial' animate='animate' style={{ cursor: 'default' }}>Engineer Developer Reader Skier</motion.div>
       </div>
     </div>
   );
