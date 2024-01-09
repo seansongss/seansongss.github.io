@@ -1,0 +1,14 @@
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.slider-text-container {
+    position: absolute;
+    width: 100%;
+    font-size: 40vh;
+    white-space: nowrap;
+    bottom: -30px;
+    opacity: 0.4;
+    color: antiquewhite;
+}
