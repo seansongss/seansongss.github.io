@@ -23,14 +23,14 @@ const textVariants = {
 const About = () => {
   return (
     <div id='about' className='page'>
-      <motion.div className='text-container'  variants={textVariants} initial='initial' animate='animate'>
-        <h1>About Me</h1>
-        <p>I am Sean Song, a Mathematics student at University of Waterloo</p>
-        <p>Interests: Alpine Skiing, Soccer, Reading, Workout</p>
-        <p>Interested Field: Machine Learning, Full-stack development, </p>
-        <h2>Programming Languages</h2>
-        <p>Java, JavaScript, Python, </p>
-        <h2>Data Tools/Libraries</h2>
+      <motion.div className='text-container'  >
+        <motion.h1 variants={textVariants} initial='initial' whileInView='animate'>About Me</motion.h1>
+        <motion.p variants={textVariants} initial='initial' whileInView='animate'>I am Sean Song, a Mathematics student at University of Waterloo</motion.p>
+        <motion.p variants={textVariants} initial='initial' whileInView='animate'>Interests: Alpine Skiing, Soccer, Reading, Workout</motion.p>
+        <motion.p variants={textVariants} initial='initial' whileInView='animate'>Interested Field: Machine Learning, Full-stack development, </motion.p>
+        <motion.h2 variants={textVariants} initial='initial' whileInView='animate'>Programming Languages</motion.h2>
+        <motion.p variants={textVariants} initial='initial' whileInView='animate'>Java, JavaScript, Python, </motion.p>
+        <motion.h2 variants={textVariants} initial='initial' whileInView='animate'>Data Tools/Libraries</motion.h2>
         <FontAwesomeIcon icon={faInstagram} size='2x' onClick={() => { window.open('https://www.instagram.com/seansongss') }} style={{ cursor: 'pointer' }} />
         <FontAwesomeIcon icon={faGithub} size='2x' onClick={() => { window.open('https://www.github.com/seansongss') }} style={{ cursor: 'pointer' }} />
         <FontAwesomeIcon icon={faLinkedin} size='2x' onClick={() => { window.open('https://www.linkedin.com/in/seansongss/') }} style={{ cursor: 'pointer' }} />
