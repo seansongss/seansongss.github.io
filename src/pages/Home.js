@@ -73,12 +73,6 @@ const sliderVariants = {
   },
 }
 
-const handleAnimationComplete = () => {
-  document.querySelector('.home-logo').style.transform = 'translateX(-100%) translateY(-100%)';
-  document.querySelector('.home-logo').style.left = '30px';
-  document.querySelector('.home-logo').style.top = '-70px';
-};
-
 const Home = ({ isVisible }) => {
   return (
     <div id='home' className='page'>
