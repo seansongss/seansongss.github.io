@@ -10,3 +10,12 @@
 .text-container {
     left: 0;
 }
+
+.socialIcon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#about {
+    margin-left: 10px;
+}

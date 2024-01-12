@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll';
+
 
 import './Home.css';
 
@@ -49,7 +51,11 @@ const Home = () => {
         <motion.div className='home-text-container' variants={textVariants}>
           <motion.h1 variants={textVariants}>SEAN SONG</motion.h1>
           <motion.h2 variants={textVariants}>An enthusiatic university student</motion.h2>
-          <motion.div className='scrollButton' variants={textVariants} animate='scrollButton'><FontAwesomeIcon icon={faAnglesDown} size='2x' /></motion.div>
+          <motion.div className='scrollButton' variants={textVariants} animate='scrollButton'>
+            <Link to="about" spy={true} smooth={true} offset={-80} duration={800}>
+              <FontAwesomeIcon icon={faAnglesDown} size='2x' />
+            </Link>
+          </motion.div>
         </motion.div>
       </motion.div>
       <motion.div className='home-image-container' variants={textVariants} initial='initial' animate='animate'>
