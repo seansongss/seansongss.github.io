@@ -18,6 +18,24 @@ const textVariants = {
     transition: {
       duration: 1,
       staggerChildren: 0.1,
+      delay: 3,
+    },
+  },
+  initialLogo: {
+    x: '50vw',
+    y: '50vh',
+    opacity: 1,
+  },
+  animateLogo: {
+    x: 0,
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay: 1,
+      duration: 2,
+    },
+    transitionEnd: {
+      opacity: 0,
     },
   },
   scrollButton: {
@@ -31,6 +49,16 @@ const textVariants = {
 };
 
 const sliderVariants = {
+  hidden: {
+    opacity: 0
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 2,
+      delay: 3.5,
+    },
+  },
   initial: {
     x: 100,
   },
@@ -40,11 +68,18 @@ const sliderVariants = {
       repeat: Infinity,
       repeatType: 'mirror',
       duration: 20,
+      delay: 5,
     },
   },
 }
 
-const Home = () => {
+const handleAnimationComplete = () => {
+  document.querySelector('.home-logo').style.transform = 'translateX(-100%) translateY(-100%)';
+  document.querySelector('.home-logo').style.left = '30px';
+  document.querySelector('.home-logo').style.top = '-70px';
+};
+
+const Home = ({ isVisible }) => {
   return (
     <div id='home' className='page'>
       <motion.div className='home-text-wrapper' variants={textVariants} initial='initial' animate='animate'>
@@ -58,12 +93,22 @@ const Home = () => {
           </motion.div>
         </motion.div>
       </motion.div>
+      <motion.div
+        className='home-logo'
+        variants={textVariants}
+        initial='initialLogo'
+        animate='animateLogo'
+      >
+        seansongss
+      </motion.div>
+      {/*
       <motion.div className='home-image-container' variants={textVariants} initial='initial' animate='animate'>
         <motion.img variants={textVariants} src='/profile_image.jpg' alt='' />
       </motion.div>
-      <div className='slider-wrapper'>
+  */}
+      <motion.div className='slider-wrapper' variants={sliderVariants} initial='hidden' animate='show'>
         <motion.div className='slider-text-container' variants={sliderVariants} initial='initial' animate='animate'>Engineer Developer Reader Skier</motion.div>
-      </div>
+      </motion.div>
     </div>
   );
 };

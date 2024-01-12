@@ -6,7 +6,6 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Expereince from './pages/Experience';
 import Contact from './pages/Contact';
-import Intro from './Intro';
 
 import './App.css'
 
@@ -14,7 +13,6 @@ const App = () => {
   return (
     <div className='container'>
       <section>
-        <Intro />
         <Navbar />
         <Home />
       </section>

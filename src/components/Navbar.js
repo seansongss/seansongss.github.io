@@ -18,6 +18,7 @@ const navVariants = {
     x: 0,
     y: 0,
     transition: {
+      delay: 1,
       duration: 2,
     }
   },
@@ -27,6 +28,7 @@ const navVariants = {
     transition: {
       duration: 1,
       staggerChildren: 0.1,
+      delay: 3,
     },
   },
 }
