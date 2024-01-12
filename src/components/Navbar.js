@@ -6,8 +6,11 @@ import './Navbar.css';
 
 const navVariants = {
   left: {
-    x: '50vw',
-    y: '50vh',
+    x: '-50%',
+    y: '-50%',
+    position: 'fixed',
+    top: '50%',
+    left: '50%',
     opacity: 1,
   },
   right: {
@@ -17,6 +20,10 @@ const navVariants = {
   logoAnimate: {
     x: 0,
     y: 0,
+    position: 'relative',
+    top: 0,
+    left: 0,
+    opacity: 1,
     transition: {
       delay: 1,
       duration: 2,
