@@ -48,18 +48,18 @@ const About = () => {
         ref={ref}
         animate={isInView && 'animate'}
       >
-        <motion.h1 variants={textVariants} >About Me</motion.h1>
+        <motion.h1 variants={textVariants} >About me</motion.h1>
         <motion.div variants={textVariants} className='info-container'>
           <motion.div className='profile-image'>
             <img src='/profile_image.jpg' alt='' />
           </motion.div>
           <motion.div className='text-row'>
-            <motion.div variants={textVariants} className='introText'>Hello! My name is <div className='name'>Sean Song</div>, a Mathematics student at the University of Waterloo</motion.div>
-            <motion.p className='hobbies' variants={textVariants} >
-              <br /><FontAwesomeIcon className='hobbies-image' icon={faPersonSkiing} size='1x' />Hobbies: Alpine Skiing, Soccer, Reading, Workout, Travelling
+            <motion.div className='introText'>Hello! My name is <div className='name'>Sean Song</div>, a Mathematics student at the University of Waterloo</motion.div>
+            <motion.p className='hobbies' >
+              <br /><FontAwesomeIcon className='hobbies-image' icon={faPersonSkiing} size='1x' />Hobbies: Reading, Alpine Skiing, Soccer, Workout, Travelling
             </motion.p>
-            <motion.p className='interest-field' variants={textVariants} >
-              <img className='coding-image' src='coding-50.png' alt='' />Interested Field: Machine Learning &#40;ML&#41;, Artificial Intelligence &#40;ML&#41;, Full-stack development, Front-end Development
+            <motion.p className='interest-field' >
+              <img className='coding-image' src='coding-50.png' alt='' />Fields of Interest: Machine Learning &#40;ML&#41;, Artificial Intelligence &#40;ML&#41;, Full-stack development, Front-end Development, Quality Assurance, Quantitative Analysis
             </motion.p>
           </motion.div>
         </motion.div>

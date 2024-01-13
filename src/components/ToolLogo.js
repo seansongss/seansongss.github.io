@@ -6,7 +6,7 @@ import './ToolLogo.css'
 function ToolLogo() {
     const ref = useRef();
 
-    const isInView = useInView(ref, { margin: '-100px' });
+    const isInView = useInView(ref, { margin: '-10px' });
 
     const tool_logo = [
         { name: 'ReactJS', file: 'react-96.png' },
@@ -26,7 +26,7 @@ function ToolLogo() {
                     initial={{ opacity: 0, x: -10 }}
                     ref={ref}
                     animate={isInView && { opacity: 1, x: 0 }}
-                    transition={{ delay: 1.35 + 0.5 * index, duration: 1 }}
+                    transition={{ delay: 1.55 + 0.6 * index, duration: 1 }}
                     style={{ display: 'inline-block' }}
                 >
                     <img className='tool-logo-image' src={tool_logo.file} alt={tool_logo.name} />

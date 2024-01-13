@@ -9,7 +9,12 @@ body {
 }
 
 h1 {
+  font-size: 60px;
   color: #384755; /*title text color */
+}
+
+h2 {
+  font-size: 35px;
 }
 
 code {

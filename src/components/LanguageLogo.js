@@ -6,7 +6,7 @@ import './LanguageLogo.css'
 const LanguageLogo = () => {
     const ref = useRef();
 
-    const isInView = useInView(ref, { margin: '-100px' });
+    const isInView = useInView(ref, { margin: '-10px' });
 
     const languages = [
         { name: 'JavaScript', file: 'javascript-96.png' },
@@ -25,7 +25,7 @@ const LanguageLogo = () => {
                     initial={{ opacity: 0, x: -10 }}
                     ref={ref}
                     animate={isInView && { opacity: 1, x: 0 }}
-                    transition={{ delay: 1.5 + 0.5 * index, duration: 1 }}
+                    transition={{ delay: 1.7 + 0.6 * index, duration: 1 }}
                     style={{ display: 'inline-block' }}
                 >
                     <img className='language-image' src={language.file} alt={language.name} />
