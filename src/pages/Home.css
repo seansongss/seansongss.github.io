@@ -27,7 +27,18 @@ body {
     }
 
     h2 {
+        width: 80%;
         font-size: 50px;
+    }
+
+    .social-icon-list {
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
+    .socialIcon {
+        margin-right: 10px;
+        cursor: pointer;
     }
 
     .scrollButton {

@@ -6,7 +6,7 @@ import './LanguageLogo.css'
 const LanguageLogo = () => {
     const ref = useRef();
 
-    const isInView = useInView(ref, { margin: '-10px' });
+    const isInView = useInView(ref, { margin: '-100px' });
 
     const languages = [
         { name: 'JavaScript', file: 'javascript-96.png' },

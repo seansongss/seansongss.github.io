@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion/dist/framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faPersonSkiing } from '@fortawesome/free-solid-svg-icons';
 
 import LanguageLogo from '../components/LanguageLogo';
@@ -67,9 +66,6 @@ const About = () => {
         <LanguageLogo />
         <motion.h2 variants={textVariants} >Data Tools/Libraries</motion.h2>
         <ToolLogo />
-        {/* <FontAwesomeIcon className='socialIcon' icon={faInstagram} size='2x' onClick={() => { window.open('https://www.instagram.com/seansongss') }} />
-        <FontAwesomeIcon className='socialIcon' icon={faGithub} size='2x' onClick={() => { window.open('https://www.github.com/seansongss') }} />
-        <FontAwesomeIcon className='socialIcon' icon={faLinkedin} size='2x' onClick={() => { window.open('https://www.linkedin.com/in/seansongss/') }} /> */}
       </motion.div>
     </div>
   );

@@ -6,7 +6,7 @@ import './ToolLogo.css'
 function ToolLogo() {
     const ref = useRef();
 
-    const isInView = useInView(ref, { margin: '-10px' });
+    const isInView = useInView(ref, { margin: '-100px' });
 
     const tool_logo = [
         { name: 'ReactJS', file: 'react-96.png' },

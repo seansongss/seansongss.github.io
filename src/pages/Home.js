@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 
@@ -62,10 +63,15 @@ const Home = ({ isVisible }) => {
       <motion.div className='slider-wrapper' variants={sliderVariants} initial='hidden' animate='show'>
         <motion.div className='slider-text-container' variants={sliderVariants} initial='initial' animate='animate'>Engineer Developer Reader Skier</motion.div>
       </motion.div>
-      <motion.div className='home-text-wrapper' variants={textVariants} initial='initial' animate='animate'>
-        <motion.div className='home-text-container' variants={textVariants}>
+      <motion.div className='home-text-wrapper' variants={textVariants} >
+        <motion.div className='home-text-container' variants={textVariants} initial='initial' animate='animate'>
           <motion.h1 variants={textVariants}>SEAN SONG</motion.h1>
           <motion.h2 variants={textVariants}>An enthusiatic university student</motion.h2>
+          <motion.div variants={textVariants} className='social-icon-list'>
+            <FontAwesomeIcon className='socialIcon' icon={faInstagram} size='2x' onClick={() => { window.open('https://www.instagram.com/seansongss') }} />
+            <FontAwesomeIcon className='socialIcon' icon={faGithub} size='2x' onClick={() => { window.open('https://www.github.com/seansongss') }} />
+            <FontAwesomeIcon className='socialIcon' icon={faLinkedin} size='2x' onClick={() => { window.open('https://www.linkedin.com/in/seansongss/') }} />
+          </motion.div>
           <motion.div className='scrollButton' variants={textVariants} animate='scrollButton'>
             <Link to="about" spy={true} smooth={true} offset={-80} duration={800}>
               <FontAwesomeIcon icon={faAnglesDown} size='2x' />
