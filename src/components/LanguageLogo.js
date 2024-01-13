@@ -13,7 +13,9 @@ const LanguageLogo = () => {
         { name: 'Python', file: 'python-96.png' },
         { name: 'Java', file: 'java-96.png' },
         { name: 'C', file: 'c-programming-96.png' },
-        { name: 'SQL', file: 'sql-96.png' }
+        { name: 'SQL', file: 'sql-96.png' },
+        { name: 'HTML', file: 'html-96.png' },
+        { name: 'CSS', file: 'css-96.png' },
     ];
 
     return (

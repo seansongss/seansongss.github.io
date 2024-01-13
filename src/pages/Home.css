@@ -4,6 +4,10 @@ body {
     overflow-x: hidden;
 }
 
+#home {
+    height: calc(100vh - 80px);
+}
+
 .home-text-wrapper {
     position: absolute;
     max-width: 1366px;

@@ -8,7 +8,7 @@ const NavbarLogo = () => {
             key={index}
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.05 * index, duration: 1 }}
+            transition={{ delay: 0.5 + 0.1 * index, duration: 1 }}
             style={{ display: 'inline-block' }}
         >
             {letter}

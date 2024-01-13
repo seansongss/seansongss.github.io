@@ -15,6 +15,7 @@ function ToolLogo() {
         { name: 'Firebase', file: 'firebase-96.png' },
         { name: 'Django', file: 'django-96.png' },
         { name: 'Selenium', file: 'selenium-96.png' },
+        { name: 'GitHub', file: 'github-96.png' },
     ];
 
     return (

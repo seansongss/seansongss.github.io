@@ -18,7 +18,7 @@ const textVariants = {
     transition: {
       duration: 2,
       staggerChildren: 0.1,
-      delay: 4,
+      delay: 4.5,
     },
   },
   scrollButton: {
@@ -39,7 +39,7 @@ const sliderVariants = {
     opacity: 1,
     transition: {
       duration: 2,
-      delay: 4,
+      delay: 4.5,
     },
   },
   initial: {
@@ -51,7 +51,7 @@ const sliderVariants = {
       repeat: Infinity,
       repeatType: 'mirror',
       duration: 20,
-      delay: 5.5,
+      delay: 6,
     },
   },
 }
