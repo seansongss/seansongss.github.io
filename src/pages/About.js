@@ -2,6 +2,10 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion/dist/framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPersonSkiing } from '@fortawesome/free-solid-svg-icons';
+
+import LanguageLogo from '../components/LanguageLogo';
+import ToolLogo from '../components/ToolLogo';
 
 import './About.css';
 
@@ -18,6 +22,15 @@ const textVariants = {
       staggerChildren: 0.1,
     },
   },
+  imageAnimate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+      delay: 0.5,
+      staggerChildren: 0.1,
+    },
+  }
 }
 
 const About = () => {
@@ -36,20 +49,28 @@ const About = () => {
         animate={isInView && 'animate'}
       >
         <motion.h1 variants={textVariants} >About Me</motion.h1>
-        <motion.p variants={textVariants} >I am Sean Song, a Mathematics student at University of Waterloo</motion.p>
-        <motion.p variants={textVariants} >Interests: Alpine Skiing, Soccer, Reading, Workout</motion.p>
-        <motion.p variants={textVariants} >Interested Field: Machine Learning, Full-stack development, </motion.p>
+        <motion.div variants={textVariants} className='info-container'>
+          <motion.div className='profile-image'>
+            <img src='/profile_image.jpg' alt='' />
+          </motion.div>
+          <motion.div className='text-row'>
+            <motion.div variants={textVariants} className='introText'>Hello! My name is <div className='name'>Sean Song</div>, a Mathematics student at the University of Waterloo</motion.div>
+            <motion.p className='hobbies' variants={textVariants} >
+              <br /><FontAwesomeIcon className='hobbies-image' icon={faPersonSkiing} size='1x' />Hobbies: Alpine Skiing, Soccer, Reading, Workout, Travelling
+            </motion.p>
+            <motion.p className='interest-field' variants={textVariants} >
+              <img className='coding-image' src='coding-50.png' alt='' />Interested Field: Machine Learning &#40;ML&#41;, Artificial Intelligence &#40;ML&#41;, Full-stack development, Front-end Development
+            </motion.p>
+          </motion.div>
+        </motion.div>
         <motion.h2 variants={textVariants} >Programming Languages</motion.h2>
-        <motion.p variants={textVariants} >Python, JavaScript, Java, C, SQL</motion.p>
+        <LanguageLogo />
         <motion.h2 variants={textVariants} >Data Tools/Libraries</motion.h2>
-        <motion.p variants={textVariants} >ReactJS, React Native, Tensorflow, Firebase, Django, Selenium</motion.p>
-        <FontAwesomeIcon className='socialIcon' icon={faInstagram} size='2x' onClick={() => { window.open('https://www.instagram.com/seansongss') }} />
+        <ToolLogo />
+        {/* <FontAwesomeIcon className='socialIcon' icon={faInstagram} size='2x' onClick={() => { window.open('https://www.instagram.com/seansongss') }} />
         <FontAwesomeIcon className='socialIcon' icon={faGithub} size='2x' onClick={() => { window.open('https://www.github.com/seansongss') }} />
-        <FontAwesomeIcon className='socialIcon' icon={faLinkedin} size='2x' onClick={() => { window.open('https://www.linkedin.com/in/seansongss/') }} />
+        <FontAwesomeIcon className='socialIcon' icon={faLinkedin} size='2x' onClick={() => { window.open('https://www.linkedin.com/in/seansongss/') }} /> */}
       </motion.div>
-      <div className='profile-image'>
-        <img src='/profile_image.jpg' alt='' />
-      </div>
     </div>
   );
 };

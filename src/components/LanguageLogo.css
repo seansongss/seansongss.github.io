@@ -1,0 +1,22 @@
+.language-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    justify-content: center;
+
+    .language {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 50px;
+        font-weight: 800;
+        font-size: 18px;
+
+        .language-image{
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
