@@ -38,18 +38,7 @@ body {
     right: 0;
     padding-top: 8%;
     margin-right: 100px;
-    z-index: 1;
     scale: 0.8;
-}
-
-.home-logo {
-    font-weight: 800;
-    font-size: 40px;
-    color: #384755;
-}
-
-.slider-wrapper {
-    z-index: 0;
 }
 
 .slider-text-container {
