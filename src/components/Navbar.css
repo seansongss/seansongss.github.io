@@ -11,7 +11,7 @@
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+
 }
 
 .navbar-logo {
@@ -21,6 +21,10 @@
     font-size: 40px;
     color: #384755;
     cursor: pointer;
+}
+
+.navbar-links-container {
+    margin-top: 10px;
 }
 
 .navbar-list {

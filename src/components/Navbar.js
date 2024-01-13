@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion/dist/framer-motion';
 
+import NavbarLogo from './NavbarLogo';
+
 import './Navbar.css';
 
 const navVariants = {
@@ -20,22 +22,25 @@ const navVariants = {
   logoAnimate: {
     x: 0,
     y: 0,
-    position: 'relative',
-    top: 0,
+    position: 'fixed',
+    top: 10,
     left: 0,
     opacity: 1,
     transition: {
-      delay: 1,
-      duration: 2,
-    }
+      delay: 1.5,
+      duration: 2.5,
+    },
+    transitionEnd: {
+      position: 'relative',
+    },
   },
   animate: {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 1,
+      duration: 2,
       staggerChildren: 0.1,
-      delay: 3,
+      delay: 4,
     },
   },
 }
@@ -49,7 +54,9 @@ export default function Navbar() {
           initial='left'
           animate='logoAnimate'
         >
-          <Link to='home' className='navbar-logo' spy={true} smooth={true} offset={-80} duration={800}>seansongss</Link>
+          <Link to='home' className='navbar-logo' spy={true} smooth={true} offset={-80} duration={800}>
+            <NavbarLogo />
+          </Link>
         </motion.div>
         <motion.div
           className='navbar-links-container'
