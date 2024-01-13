@@ -7,7 +7,7 @@ import NavbarLogo from './NavbarLogo';
 import './Navbar.css';
 
 const navVariants = {
-  /* left: {
+  left: {
     x: '-50%',
     y: '-50%',
     position: 'fixed',
@@ -42,7 +42,7 @@ const navVariants = {
       staggerChildren: 0.1,
       delay: 4,
     },
-  }, */
+  },
 }
 
 export default function Navbar() {
