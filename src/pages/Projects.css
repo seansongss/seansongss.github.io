@@ -3,15 +3,22 @@
 
     h1 {
         margin-bottom: 10px;
-
-
     }
 
     p {
         width: 65%;
     }
+}
+
+.project-container {
+    background-color: antiquewhite;
+    border-radius: 50px;
+    width: 75%;
+    padding-left: 30px;
+    padding-bottom: 40px;
 
     h2 {
+        padding-top: 20px;
         display: flex;
         align-items: flex-start;
         height: 1.5em;
@@ -24,11 +31,11 @@
     }
 }
 
-.drinkit-container {
+.drinkit-wrapper {
     display: flex;
     align-items: center;
 
     .drinkit-text-container {
-        width: 60%;
+        width: 65%;
     }
 }
