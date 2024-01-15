@@ -27,7 +27,7 @@ function ToolLogo() {
                     initial={{ opacity: 0, x: -10 }}
                     ref={ref}
                     animate={isInView && { opacity: 1, x: 0 }}
-                    transition={{ delay: 1.55 + 0.6 * index, duration: 1 }}
+                    transition={{ delay: 1 + 0.6 * index, duration: 1 }}
                     style={{ display: 'inline-block' }}
                 >
                     <img className='tool-logo-image' src={tool_logo.file} alt={tool_logo.name} />

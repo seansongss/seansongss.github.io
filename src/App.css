@@ -1,9 +1,0 @@
-.container {
-    scroll-snap-type: mandatory;
-    scroll-snap-type: y mandatory;
-
-    section {
-        scroll-snap-align: start;
-        overflow: hidden;
-    }
-}

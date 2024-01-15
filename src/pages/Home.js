@@ -9,7 +9,7 @@ import { Link } from 'react-scroll';
 import './Home.css';
 
 const textVariants = {
-  initial: {
+  /* initial: {
     x: -500,
     opacity: 0,
   },
@@ -29,7 +29,7 @@ const textVariants = {
       duration: 2,
       repeat: Infinity,
     },
-  },
+  }, */
 };
 
 const sliderVariants = {

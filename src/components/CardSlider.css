@@ -1,0 +1,14 @@
+.slider-container {
+    overflow: initial;
+    width: 20vw;
+    margin-left: 50px;
+}
+
+.slider-image {
+    margin: auto;
+    height: 60vh;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+}

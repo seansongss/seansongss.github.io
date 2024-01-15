@@ -7,8 +7,6 @@ import Projects from './pages/Projects';
 import Expereince from './pages/Experience';
 import Contact from './pages/Contact';
 
-import './App.css'
-
 const App = () => {
   return (
     <div className='container'>
