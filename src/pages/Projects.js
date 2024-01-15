@@ -32,8 +32,13 @@ const textVariants = {
 function Projects() {
 
   const ref = useRef()
+  const refProject = useRef()
+  const refProject2 = useRef()
 
   const isInView = useInView(ref, { margin: '-100px' })
+
+  const isInViewProject = useInView(refProject, { margin: '-50%' })
+  const isInViewProject2 = useInView(refProject2, { margin: '-30%' })
 
   return (
     <div id='projects' className='page projects-container'>
@@ -57,8 +62,8 @@ function Projects() {
         className='project-container'
         variants={textVariants}
         initial='initial'
-        ref={ref}
-        animate={isInView && 'animate'}
+        ref={refProject}
+        animate={isInViewProject && 'animate'}
       >
         <motion.h2 variants={textVariants}>
           Drink It
@@ -78,8 +83,8 @@ function Projects() {
         className='project-container'
         variants={textVariants}
         initial='initial'
-        ref={ref}
-        animate={isInView && 'animate'}
+        ref={refProject2}
+        animate={isInViewProject2 && 'animate'}
       >
         <motion.h2 variants={textVariants}>
           AutoInsta
