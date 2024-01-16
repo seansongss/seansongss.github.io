@@ -27,7 +27,7 @@ const navVariants = {
     left: 0,
     opacity: 1,
     transition: {
-      delay: 2,
+      delay: 2.5,
       duration: 2.5,
     },
     transitionEnd: {
@@ -74,9 +74,11 @@ export default function Navbar() {
             <li>
               <Link to="projects" spy={true} smooth={true} offset={-80} duration={800}>Projects</Link>
             </li>
+            {/*}
             <li>
               <Link to="experience" spy={true} smooth={true} offset={-80} duration={800}>Experience</Link>
             </li>
+  */}
             <li>
               <Link to="contact" spy={true} smooth={true} offset={-80} duration={800}>Contact</Link>
             </li>

@@ -38,6 +38,7 @@
         }
 
         .name {
+            font-weight: 500;
             color: green;
         }
 

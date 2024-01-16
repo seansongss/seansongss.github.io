@@ -71,7 +71,7 @@ function Projects() {
         <motion.div className='drinkit-wrapper' variants={textVariants}>
           <motion.div className='drinkit-text-container' variants={textVariants}>
             <motion.p variants={textVariants}>A journal application that tracks and analyzes users' alcohol consumption, aimed at fostering healthy drinking habits.</motion.p>
-            <motion.p variants={textVariants}>Utilized Firebase for database connection and React Native to integrate various features such as recording and statistical analysis of alcohol consumption and providing alcohol recipes that are posted by users</motion.p>
+            <motion.p variants={textVariants}>Utilized Firebase for database connection and React Native to integrate various features such as recording and statistical analysis of alcohol consumption and providing alcohol recipes that are posted by users.</motion.p>
             <motion.p variants={textVariants}>Developed reusable React components, such as monthly dashboard, authentication, custom calendar, journal record, etc.</motion.p>
             <motion.p variants={textVariants}>Currently under development, expected to launch on Google Play Store and App Store in February.</motion.p>
           </motion.div>
@@ -90,11 +90,11 @@ function Projects() {
         </motion.h2>
         <motion.div className='autoinsta-wrapper' variants={textVariants}>
           <motion.div className='autoinsta-text-container' variants={textVariants}>
-            <motion.p variants={textVariants}>Implemented an automation program through Selenium and Python to increase the user popularity by automating pressing Instagram likes and analyzing and tracking the list of followers and followings</motion.p>
-            <motion.p variants={textVariants}>With analysis of the Instagram website using developer tools, the user can set a hashtag of their interest then the program goes through all the posts within the set hashtag and presses likes and follows accounts.
-              <br />
-              Then, the program goes through all the list of followers and unfollows all the unfollowed back accounts leaving the only active accounts with similar interest.</motion.p>
-            <motion.p variants={textVariants}>Ultimately increased test account's followers and likes by 300+ and 1000+ respectively, in less than a week</motion.p>
+            <motion.p variants={textVariants}>Implemented an automation program through Selenium and Python to increase the user popularity by automating pressing Instagram likes and analyzing and tracking the list of followers and followings.</motion.p>
+            <motion.p variants={textVariants}>With the analysis of the Instagram website using developer tools, the user can set a hashtag of their interest then the program goes through all the posts within the set hashtag and presses likes and follows accounts.
+              <br /><br />
+              Then, the program goes through all the list of followers and unfollows all the unfollowed back accounts leaving the only active accounts with similar interest, ultimately enhancing the account's popularity by increasing number of followers and likes.</motion.p>
+            <motion.p variants={textVariants}>Increased test account's followers and likes by 300+ and 1000+ respectively, in less than a week.</motion.p>
           </motion.div>
           <motion.div className='autoinsta-image-container' variants={textVariants}>
             <img className='autoinsta-image' src='instagram-desktop.png' alt='' />
