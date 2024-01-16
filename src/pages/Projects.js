@@ -97,7 +97,7 @@ function Projects() {
               Then, the program goes through all the list of followers and unfollows all the unfollowed back accounts leaving the only active accounts with similar interest.</motion.p>
             <motion.p variants={textVariants}>Ultimately increased test account's followers and likes by 300+ and 1000+ respectively, in less than a week</motion.p>
           </motion.div>
-          <motion.div className='autoinsta-image' variants={textVariants}>
+          <motion.div className='autoinsta-image-container' variants={textVariants}>
             <img className='autoinsta-image' src='instagram-desktop.png' alt='' />
           </motion.div>
         </motion.div>
