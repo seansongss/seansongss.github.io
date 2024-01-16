@@ -36,8 +36,7 @@ function Projects() {
   const refProject2 = useRef()
 
   const isInView = useInView(ref, { margin: '-100px' })
-
-  const isInViewProject = useInView(refProject, { margin: '-50%' })
+  const isInViewProject = useInView(refProject, { margin: '-49%' })
   const isInViewProject2 = useInView(refProject2, { margin: '-30%' })
 
   return (
