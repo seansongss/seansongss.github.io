@@ -93,7 +93,7 @@ function Projects() {
           <motion.div className='autoinsta-text-container' variants={textVariants}>
             <motion.p variants={textVariants}>Implemented an automation program through Selenium and Python to increase the user popularity by automating pressing Instagram likes and analyzing and tracking the list of followers and followings</motion.p>
             <motion.p variants={textVariants}>With analysis of the Instagram website using developer tools, the user can set a hashtag of their interest then the program goes through all the posts within the set hashtag and presses likes and follows accounts.
-             <br /> 
+              <br />
               Then, the program goes through all the list of followers and unfollows all the unfollowed back accounts leaving the only active accounts with similar interest.</motion.p>
             <motion.p variants={textVariants}>Ultimately increased test account's followers and likes by 300+ and 1000+ respectively, in less than a week</motion.p>
           </motion.div>
