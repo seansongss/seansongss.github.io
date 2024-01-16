@@ -98,7 +98,7 @@ function Projects() {
             <motion.p variants={textVariants}>Ultimately increased test account's followers and likes by 300+ and 1000+ respectively, in less than a week</motion.p>
           </motion.div>
           <motion.div className='autoinsta-image' variants={textVariants}>
-            <img src='instagram-desktop.png' alt='' />
+            <img className='autoinsta-image' src='instagram-desktop.png' alt='' />
           </motion.div>
         </motion.div>
       </motion.div>
