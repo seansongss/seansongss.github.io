@@ -36,6 +36,26 @@
     align-items: center;
 
     .drinkit-text-container {
-        width: 65%;
+        width: 80%;
+        margin-right: -15%;
+    }
+}
+
+.autoinsta-wrapper {
+    display: flex;
+    align-items: center;
+
+    .autoinsta-text-container {
+
+        margin-right: -15%;
+    }
+    .autoinsta-image {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        img {
+            border-radius: 5%;
+            width: 80%;
+        }
     }
 }
