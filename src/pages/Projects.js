@@ -73,7 +73,7 @@ function Projects() {
             <motion.p variants={textVariants}>A journal application that tracks and analyzes users' alcohol consumption, aimed at fostering healthy drinking habits.</motion.p>
             <motion.p variants={textVariants}>Utilized Firebase for database connection and React Native to integrate various features such as recording and statistical analysis of alcohol consumption and providing alcohol recipes that are posted by users.</motion.p>
             <motion.p variants={textVariants}>Developed reusable React components, such as monthly dashboard, authentication, custom calendar, journal record, etc.</motion.p>
-            <motion.p variants={textVariants}>Currently under development, expected to launch on Google Play Store and App Store in February.</motion.p>
+            <motion.p variants={textVariants}>Currently under development, expected to launch on Google Play Store and App Store in March.</motion.p>
           </motion.div>
           <motion.div variants={textVariants}><CardSlider /></motion.div>
         </motion.div>
