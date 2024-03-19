@@ -6,7 +6,7 @@ function Libraries() {
 
     const isInView = useInView(ref, { margin: '-100px' });
 
-    const libraries_logo = [
+    const libraries_logos = [
         { name: 'ReactJS', file: 'react-96.png' },
         { name: 'React Native', file: 'react-native-96.png' },
         { name: 'Tensorflow', file: 'tensorflow-96.png' },
@@ -18,7 +18,7 @@ function Libraries() {
 
     return (
         <motion.div className='libraries-list'>
-            {tool_logo.map((libraries_logo, index) => (
+            {libraries_logos.map((libraries_logo, index) => (
                 <motion.p
                     className='libraries'
                     key={libraries_logo.name}
