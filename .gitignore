@@ -1,3 +1,5 @@
 node_modules/
 node_modules
 .DS_Store
+._.DS_Store
+node_modules/.DS_Store node_modules/@fortawesome/.DS_Store node_modules/@jest/core/node_modules/micromatch/lib/.DS_Store node_modules/@jest/transform/node_modules/micromatch/lib/.DS_Store node_modules/@mui/.DS_Store node_modules/anymatch/node_modules/micromatch/lib/.DS_Store node_modules/espree/.DS_Store node_modules/extglob/lib/.DS_Store node_modules/fast-glob/node_modules/micromatch/lib/.DS_Store node_modules/fork-ts-checker-webpack-plugin/node_modules/micromatch/lib/.DS_Store node_modules/http-proxy-middleware/node_modules/micromatch/lib/.DS_Store node_modules/jest-config/node_modules/micromatch/lib/.DS_Store node_modules/jest-haste-map/node_modules/micromatch/lib/.DS_Store node_modules/jest-message-util/node_modules/micromatch/lib/.DS_Store node_modules/sane/node_modules/micromatch/lib/.DS_Store node_modules/webpack-dev-server/node_modules/micromatch/lib/.DS_Store node_modules/webpack/node_modules/micromatch/lib/.DS_Store node_modules/workbox-precaching/.DS_Store
